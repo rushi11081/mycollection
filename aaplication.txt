@@ -1,0 +1,65 @@
+
+Selecting a Product from list of products with Product Name
+Complete Checkout Logic with Product selection example
+Handling Auto suggestive dropdown to select Location and
+Framework design 
+For QA 
+Navigate to http://tutorialsninja.com/demo/  
+
+Check if the title is displayed as `Your Store`. This is the Home Page of application 
+
+Navigate to “Components’ Menu and select “Monitors” submenu option 
+
+Purchase a product:  
+
+Note down the price of a product in this page & click on the item  
+
+Check if user is taken to the product page for the product selected in above step 
+
+Validate if the price is same as that we noted in Step a 
+
+Scroll down to “Available Options” section and select radio button – Large, Checkbox 3 
+
+Enter Textarea as “Atmosol Interview” 
+
+Select “Blue” colour in “Select” dropdown 
+
+Update “Qty” as 1 
+
+Click “Add to Cart” button 
+
+Verify if the “File required!” error is shown below “Upload File” button 
+
+ 
+
+POINTS TO CONSIDER: 
+
+ 
+
+Create a new Java, C# project with an appropriate test framework like Nunit, TestNG etc., 
+
+Automate tests in Chrome browser 
+
+Use parameterized data instead of hardcoded test data 
+
+Use Page Object Model with Selenium 
+
+Make your functions more generic and use coding best practices as far as possible 
+
+Once the test is done, please zip the entire project and send it to us 
+
+ aishwarya@atmosol.com
+
+
+
+Samsung SyncMaster 941BW
+
+//a[text()='Components']
+
+//a[text()='Monitors (2)']
+
+//img[@title='Samsung SyncMaster 941BW']
+
+//div/p[@class='price']/child::span[text()='Ex Tax: $200.00'].gettext();
+
+ $200.00
